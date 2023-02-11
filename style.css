@@ -1,0 +1,46 @@
+#container{
+    width: 70%;
+    margin: auto;
+    height: fit-content;
+    min-height: 200px;
+    background: aqua;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    padding: 5px;
+}
+#button-container{
+    display:flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    background: aquamarine;
+    border-radius: 5px;
+}
+button{
+    color: aliceblue;
+    background: #000;
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+}
+button:hover{
+    color: black;
+    background: white;
+    height: 34px;
+}
+#box{
+    border : 2px solid red;
+    width: 20%;
+    height: 30px;
+    background: black;
+    border-radius: 5px;
+    margin: 5px;
+}
